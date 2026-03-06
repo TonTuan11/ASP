@@ -18,6 +18,7 @@ namespace Demo.Controllers
             _logger = logger;
         }
         //hi
+        //hi2
 
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
